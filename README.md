@@ -1,4 +1,4 @@
-## Evaluation of the SceneScape using synthetic data
+## Evaluation the performance of the SceneScape using synthetic data
 
 This repo provides an initial benchmark for testing the performance of SceneScape using synthetic data. 
 
@@ -60,7 +60,7 @@ Some results for reference.
 
    ![F1230_1](E:\Docu_for_Scenescape\F1230_1.png)
 
-   2. ##### Influence of the camera height
+2. ##### Influence of the camera height
 
       The height and view of the camera is essential for the result. In the following scene, the camera is pretty low.
 
