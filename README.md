@@ -74,7 +74,9 @@ The predicted trajectory of Player-2M has offset with the ground truth. The effe
 3. #### RE-ID issue
 
    When the trajectory is complex, the global id is unstable for a certain person. For example, the following fours results all have switch ID issue. Note that in this case, the mean distance error is calculated under the situation that the detected global ID and the player-ID is paired manually. The REID module can be further improved.
-   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_3.png" style="zoom:33%;" />
-   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_4.png" style="zoom:15%;" />
-   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1230_3.png" style="zoom:33%;" />
-   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1230_4.png" style="zoom:33%;" />
+   <center class="half">
+      <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_3.png" width="150">
+      <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_4.png" width="150">
+      <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1230_3.png" width="150">
+      <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1230_4.png" width="150">
+   </center>
