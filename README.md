@@ -54,7 +54,7 @@ Some results for reference.
 
    
 
-   ![L3FrontCam_1](E:\Docu_for_Scenescape\results\video1230_1_cameraview\Frames\L3FrontCam_1.jpg)
+<img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/L3FrontCam_1.jpg" style="zoom:33%;" />
 
    When the trajectory of each person is simple, the tracking result can be very accurate as shown in the following figure where the solid line is the ground truth position and the dot line is the predicted position. And the mean distance error for two players are 0.12m and 0.14m respectively.
 
@@ -64,25 +64,16 @@ Some results for reference.
 
       The height and view of the camera is essential for the result. In the following scene, the camera is pretty low.
 
-      <img src="E:\Docu_for_Scenescape\results\video_12302_camlow\scene.png" alt="scene" />
-      <img src="E:\Docu_for_Scenescape\results\video_12302_camlow\Frames\L3FrontCam_3.jpg" alt="scene"  />
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/scene.jpg" style="zoom:33%;" />
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/L3FrontCam_3.jpg" style="zoom:33%;" />
 
 The predicted trajectory of Player-2M has offset with the ground truth. The effects of camera height and view on the performance can be further studied.
-
-![F1230_2](E:\Docu_for_Scenescape\F1230_2.png)
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1230_2.png" style="zoom:33%;" />
 
 3. ##### RE-ID issue.
 
    When the trajectory is complex, the global id is unstable for a certain person. For example, the following fours results all have switch ID issue. Note that in this case, the mean distance error is calculated under the situation that the detected global ID and the player-ID is paired manually. The REID module can be further improved.
-
-   <img src="E:\Docu_for_Scenescape\Figure_12293.png" alt="Figure_12293" style="zoom:33%;" />
-
-   <img src="E:\Docu_for_Scenescape\Figure_12294.png" alt="Figure_12294" style="zoom:33%;" />
-
-   
-
-   <img src="E:\Docu_for_Scenescape\F1230_3.png" alt="F1230_3" style="zoom:50%;" />
-
-   
-
-<img src="E:\Docu_for_Scenescape\F1230_4.png" alt="F1230_4" style="zoom:50%;" />
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_3.png" style="zoom:33%;" />
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_4.png" style="zoom:33%;" />
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1230_3.png" style="zoom:33%;" />
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1230_4.png" style="zoom:33%;" />
