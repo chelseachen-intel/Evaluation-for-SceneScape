@@ -16,7 +16,7 @@ Following the [Scalable Virtual Retail Environment repo](https://gitlab.devtools
 
 For the position of each person, you can add the following code in the BoundingBoxController.cs, which allows to obtain the screen and world position of each person in each frame in the output Json file. The Wposition means the position in the Unity simulated world, where the unit should be meter.  And the Sposition in pixel level is the position from the camera's point of view.
 
-<img src="https:\\github.com\\chelseachen-intel\\Evaluation-for-SceneScape\\blob\\main\\images\\image-20211230150816452.png")
+<img src="http:\\github.com\\chelseachen-intel\\Evaluation-for-SceneScape\\blob\\main\\images\\image-20211230150816452.png")
 
 <img src="https:\\github.com\\chelseachen-intel\\Evaluation-for-SceneScape\\blob\\main\\images\\image-20211230150922436.png" alt="image-20211230150922436" style="zoom:33%;" />
 
