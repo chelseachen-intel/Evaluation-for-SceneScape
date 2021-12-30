@@ -65,8 +65,8 @@ Some results for reference.
 
       The height and view of the camera is essential for the result. In the following scene, the camera is pretty low.
    <center class="half">
-   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/scene.png" style="zoom:33%;" align=left/>
-   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/L3FrontCam_3.jpg" style="zoom:33%;" align=right />
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/scene.png" width = "50%" align=left/>
+   <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/L3FrontCam_3.jpg" width = "50%"  align=right />
    <center>
 
 The predicted trajectory of Player-2M has offset with the ground truth. The effects of camera height and view on the performance can be further studied.
