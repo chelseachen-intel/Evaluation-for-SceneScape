@@ -73,7 +73,7 @@ The predicted trajectory of Player-2M has offset with the ground truth. The effe
 
 3. #### RE-ID issue
 
-   When the trajectory is complex, the global id is unstable for a certain person. For example, the following fours results all have switch ID issue. Note that in this case, the mean distance error is calculated under the situation that the detected global ID and the player-ID is paired manually. The REID module can be further improved.
+   When the trajectory is complex, the global id is unstable for a certain person. For example, the following four results all have switch ID issues. Note that in this case, the mean distance error is calculated under the situation that the detected global ID and the player-ID is paired manually. The REID module can be further improved.
    <center class="half">
       <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_3.png" width="300">
       <img src="https://github.com/chelseachen-intel/Evaluation-for-SceneScape/blob/main/images/F1229_4.png" width="300">
